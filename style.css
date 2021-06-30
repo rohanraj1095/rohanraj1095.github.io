@@ -302,7 +302,7 @@ section .title::after{
     background: none;
 }
 
-/* services section styling */
+/* education section styling */
 .services, .teams{
     color:#fff;
     background: #111;
@@ -432,7 +432,7 @@ section .title::after{
     width: 75%;
 }
 
-/* teams section styling */
+/* project section styling */
 .teams .title::after{
     content: "what i develop";
 }
@@ -619,6 +619,18 @@ footer span a{
 }
 footer span a:hover{
     text-decoration: underline;
+}
+
+.icons a{
+
+     font-size: 40px;
+     padding: 15px;
+    color: rgb(24, 233, 24);
+    
+}
+.icons a i:hover{
+    font-size: 50px;
+    transition: color 0.3s ease-in-out;
 }
 
 
